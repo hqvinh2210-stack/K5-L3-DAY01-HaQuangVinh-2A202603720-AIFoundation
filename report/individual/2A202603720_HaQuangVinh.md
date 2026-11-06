@@ -109,4 +109,4 @@ Phần 1–3 (vùng tự code) tôi chỉ hỏi AI để hiểu khái niệm, kh
 - Điểm cao trên test cùng phân phối không chứng minh model "hiểu" spam; bộ case khó làm F1 của BoW tụt từ ~0.9 xuống ~0.35–0.42.
 - Phi tuyến (ReLU) không phải lý do MLP hơn LogReg trên BoW; đầu vào BoW mới là giới hạn. Đổi đầu vào sang embedding mới cải thiện mạnh (0.902 → 0.976).
 - LLM mạnh ở ngữ cảnh và ý định nhưng chậm (~2,4 giây) và có thể bị từ khoá kéo đi; không có lựa chọn nào tốt nhất tuyệt đối, phải cân F1, độ trễ và chi phí, và nên dùng thiết kế lai.
-- Số đo trên 40 tin rất nhiễu; phải đọc chênh lệch theo số tin sai chứ không theo số lẻ.
+- Số đo trên 40 tin rất nhiễu; phải đọc chênh lệch theo số tin sai chứ không theo số lẻ
